@@ -3,12 +3,13 @@ font-family: 'Anton', sans-serif;
 font-family: 'Ubuntu', sans-serif;*/
 
 body {
-  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
   margin: 0 ;
 }
 	
 .slotholder{
   color: white;
+  padding: 20px;
   height: 500px;
 }
 
@@ -21,8 +22,6 @@ body {
 
 .header {
   position: relative;
-  padding: 20px;
-
 }
 
 .contenedor {
@@ -84,9 +83,11 @@ body {
 
 .titulo-productos{		
      width: 700px;
+	 height: 250px;
      position: relative;
-     margin: 0 auto 40px;
-   }
+     margin: 0 auto 20px;
+}
+
 h1 {
 	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 	font-size: 34px;
@@ -100,6 +101,7 @@ h1 {
 {
 	text-align:center;
 }
+
 .line {
 	border: 1px solid #FF1C1F;
 	width:200px;
@@ -118,18 +120,18 @@ h3 {
 /* Comienzo Carrusel */
 .carrusel {		
      width: 200px;
-     height: 240px;
+     height: 250px;
      position: relative;
      margin: 0 auto 40px;
      perspective: 2100px;
      margin-bottom: 100px;
-   }
+}
+
 .contenedor p {
 	font-size: 15px;
 	line-height: 20px;
 	text-align: left;
 }
-
 
 /* Tamaño Carrusel */  
 
@@ -137,9 +139,9 @@ h3 {
       width: 100%;
       height: 100%;
       position: absolute;
-              transform: translateZ( -288px );
-              transform-style: preserve-3d;
-              transition: transform 1s;
+      transform: translateZ( -288px );
+      transform-style: preserve-3d;
+      transition: transform 1s;
 }
 
 /* Fin Tamaño Carrusel */
@@ -184,7 +186,7 @@ h3 {
 hr {
 	border: 2px solid #EAEDED;
 	border-radius: 300px/10px;
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-right: 30px;
 	margin-left: 30px;
 }
@@ -210,40 +212,29 @@ hr {
 	border-radius: 5px;
 	font-size: 17px;
 }
- .camara {
- 	display: table-cell;
- }
 
- .impresora {
- 	display: table-cell;
- }
+.producto {
+ 	display: inline-block;
+    width: 300px;    
+    text-align: center;
+    padding: 15px;
+    margin: 2px;
+    border: 1px solid #fcfccc;
+    border-radius: 5px;
 
- .objetivo {
- 	display: table-cell;
- }
- .videocamara {
- 	display: table-cell;
- }
+}
 
- .camara img {
- 	padding: 25px;
- 	background-color: #f5f6f6;
+.producto img {
+    height: 300px;
+    width: 300px;
+    background-color: #f5f6f6;
  	display: block;
- }
-
- .impresora img {
- 	padding: 15px;
- 	background-color: #f5f6f6;
- 	display: block;
- }
-
- .objetivo img {
- 	padding: 25px;
- 	background-color: #f5f6f6;
- 	display: block;
- }
-
-
+	margin:0 auto;
+}
+.producto p {
+    padding: 10px;
+    margin-top: -10px;
+}
 /*Final productos*/
 
 /*Comienzo del footer*/
@@ -312,15 +303,16 @@ hr {
 
 .correo{
   border-radius: 5px;
-  width: 250px;
-  padding: 5px;
+border: 0;
+  width: 210px;
+  padding: 10px;
   font-size: 14px;
   background-color: rgba(0,0,0,0.5);
 }
 
 .correo a{
     color: white;
-  	margin-top: 2px;
+  	margin: 2px;
 	display: center;
 	text-decoration: none;
   
