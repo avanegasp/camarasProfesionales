@@ -6,7 +6,8 @@ body {
   font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
   margin: 0 ;
 }
-	
+
+/* Comienzo Portada */	
 .slotholder{
   color: white;
   padding: 20px;
@@ -117,6 +118,8 @@ h3 {
 	font-weight:300;
 	text-align: center;
 } 
+/* Final Portada */
+
 /* Comienzo Carrusel */
 .carrusel {		
      width: 200px;
@@ -134,7 +137,6 @@ h3 {
 }
 
 /* Tamaño Carrusel */  
-
 #carousel {
       width: 100%;
       height: 100%;
@@ -143,8 +145,8 @@ h3 {
       transform-style: preserve-3d;
       transition: transform 1s;
 }
-
 /* Fin Tamaño Carrusel */
+
 #carousel img{
     display: block;
     position: absolute;
@@ -152,7 +154,6 @@ h3 {
     height: 80%;
     left: 10px;
     top: 10px;
-/*  border: 1px solid rgba(   0, 0, 0, 0.8 ); */
     line-height: 116px;
     font-size: 80px;
     font-weight: bold;
@@ -183,6 +184,7 @@ h3 {
 /*Final Movimiento del carrusel*/         
 /*Final Carrusel */
 
+/* Línea */
 hr {
 	border: 2px solid #EAEDED;
 	border-radius: 300px/10px;
@@ -221,7 +223,6 @@ hr {
     margin: 2px;
     border: 1px solid #fcfccc;
     border-radius: 5px;
-
 }
 
 .producto img {
@@ -315,8 +316,6 @@ border: 0;
   	margin: 2px;
 	display: center;
 	text-decoration: none;
-  
-
 }
 
 .footer .container {
@@ -351,7 +350,6 @@ table, td, th {
   border-collapse: collapse;
   text-align: center;
 }
-
   
 input, textarea {
   outline: 0;
