@@ -22,6 +22,7 @@ body {
 .contenedor {
 	width: 1024px;
 	margin: auto;
+  margin-bottom: 70px;
 }
 .logotipo {
   display: inline-block;
@@ -268,10 +269,11 @@ hr {
 }
 
 .col1 {
-	margin-top: 90px;
-	margin-left: -80px;
+	margin-top: 110px;
+	margin-left: -40px;
 	margin-bottom: 60px;
 	text-align: left;
+  width: 250px;
 }
 
 .formulario input, textarea {
@@ -354,7 +356,6 @@ input:focus, textarea:focus {
 }
 /*Final Página Precios*/
 
-/*Comienzo media queries */
 /*@media (min-width: 150px) and (max-width: 319px){
     
    .contact p{
@@ -362,6 +363,8 @@ input:focus, textarea:focus {
    }
 
 }*/
+
+/*Comienzo media queries */
 
 @media (min-width: 320px) and (max-width: 480px){
 
@@ -384,6 +387,7 @@ input:focus, textarea:focus {
 
 .banner{
   font-size: 14px;
+  padding: 0 10px;
 }
 
 .bannersub{
@@ -435,6 +439,7 @@ input:focus, textarea:focus {
  }
  .col1{
   width: 150px;
+  margin-left: -90px;
  }
  textarea{
   width: 150px;
@@ -449,6 +454,13 @@ input:focus, textarea:focus {
  .correo{
   margin-left: -150px;
  }
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+  
+.contenedor{
+  margin-left: 20px;
+}
 }
 /*Final Contacto */
 
